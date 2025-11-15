@@ -52,17 +52,33 @@ class Router {
         switch ($requestUri) {
             case '/artists':
                 if(!empty($data)) {
-                    $artistController = new artistController();
+                    $artistController = new ArtistController();
                     $artistController->save($data);
                 }
                 break;
             case '/artists/create':
-                $artistController = new artistController();
+                $artistController = new ArtistController();
                 $artistController->create();
                 break;
             case '/artists/edit':
-                $artistController = new artistController();
+                $artistController = new ArtistController();
                 $artistController->edit($id);
+                break;
+            //-------------------------------------------------
+
+            case '/members':
+                if(!empty($data)) {
+                    $memberController = new MemberController();
+                    $memberController->save($data);
+                }
+                break;
+            case '/members/create':
+                $memberController = new MemberController();
+                $memberController->create();
+                break;
+            case '/members/edit':
+                $memberController = new MemberController();
+                $memberController->edit($id);
                 break;
 
                 //-------------------------------------------------
@@ -162,6 +178,11 @@ class Router {
                 $artistController = new ArtistController();
                 $artistController->update($id, $data);
                 break;
+            case '/members':
+                $id = $data['id'] ?? null;
+                $memberController = new MemberController();
+                $memberController->update($id, $data);
+                break;
             case '/genres':
                 $id = $data['id'] ?? null;
                 $genreController = new GenreController();
@@ -192,19 +213,23 @@ class Router {
 
         switch($requestUri) {
             case '/artists':
-                $artistController = new artistController();
+                $artistController = new ArtistController();
                 $artistController->delete((int) $data['id']);
                 break;
+            case '/members':
+                $memberController = new MemberController();
+                $memberController->delete((int) $data['id']);
+                break;
             case '/genres':
-                $genreController = new genreController();
+                $genreController = new GenreController();
                 $genreController->delete((int) $data['id']);
                 break;
             case '/labels':
-                $labelController = new labelController();
+                $labelController = new LabelController();
                 $labelController->delete((int) $data['id']);
                 break;
             case '/album':
-                $albumController = new albumController();
+                $albumController = new AlbumController();
                 $albumController->delete((int) $data['id']);
                 break;
             case '/tracks':
@@ -237,19 +262,23 @@ class Router {
                 HomeController::index();
                 return;
             case '/artists':
-                $artistController = new artistController();
+                $artistController = new ArtistController();
                 $artistController->index();
                 break;
             case '/genres':
-                $genreController = new genreController();
+                $genreController = new GenreController();
                 $genreController->index();
                 break;
+            case 'members':
+                $memberController = new MemberController();
+                $memberController->index();
+                break;
             case '/labels':
-                $labelController = new labelController();
+                $labelController = new LabelController();
                 $labelController->index();
                 break;
             case '/album':
-                $serieController = new albumController();
+                $serieController = new AlbumController();
                 $serieController->index();
                 break;
             case '/tracks':
