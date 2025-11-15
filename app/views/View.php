@@ -11,7 +11,7 @@ class View
 
         #Render with Layout if enabled
         if($useLayout){
-            Layout::header($data['title'] ?? 'Books');
+            Layout::header($data['title'] ?? 'Music');
         }
 
         extract($data);

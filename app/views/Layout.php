@@ -7,7 +7,7 @@ use Exception;
 
 class Layout
 {
-    public static function header($title = "Books") {
+    public static function header($title = "Music") {
         echo <<<HTML
         <!DOCTYPE html>
             <head>
@@ -48,7 +48,7 @@ class Layout
         echo <<<HTML
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
                     <div class="container">
-                        <a class="navbar-brand">Books</a>
+                        <a class="navbar-brand">Music</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             Menu
                             <i class="fas fa-bars ms-1"></i>
@@ -64,11 +64,11 @@ class Layout
                 HTML;
         if ($dbModel->dbExists()){
         echo <<<HTML
-                                <li class="nav-item"><a class="nav-link" href="/authors">Authors</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/publishers">Publishers</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/categories">Categories</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/series">Series</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/books">Books</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/artists">Artists</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/labels">Labels</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/genres">Genres</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/albums">Albums</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/tracks">Tracks</a></li>
                 HTML;
         }
 

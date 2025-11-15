@@ -10,7 +10,7 @@ class Database
         'host' => 'localhost',
         'user' => 'root',
         'password' => '',
-        'database' => 'books'
+        'database' => 'music'
     ];
     protected static ?Database $instance = null;
     private PDO $pdo;
