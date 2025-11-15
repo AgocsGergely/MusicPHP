@@ -1,7 +1,146 @@
-html {
-    background-color: aqua;
+/* Remove underline from all <a> elements */
+a {
+    text-decoration: none;
 }
 
-.tabla {
-    background-color: beige;
+.navbar {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons as needed */
 }
+
+.nav-button {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex; /* Align items in a row */
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Banner styles */
+#banner {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#banner h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#banner h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+/* Main content styles */
+main {
+    margin-left: 220px; /* Adjust this value based on the width of the side menu */
+    padding: 20px;
+}
+
+
+
+
+.trash {
+    color: red;
+}
+
+.plus {
+    color: green;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+}
+
+.book-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .book-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s;
+    }
+    .book-card:hover {
+      transform: translateY(-5px);
+    }
+    .book-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 954 / 1500;   /* keeps the ratio */
+    object-fit: cover;         /* crop if needed */
+    border-radius: 6px;        /* optional styling */
+}
+
+    .book-info {
+      padding: 15px;
+    }
+    .book-info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+    .book-info p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    @media (max-width: 768px) {
+      .book-card {
+        width: 100%;
+      }
+    }
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 20px;
+
+    display: inline-block;   /* keeps underline tight */
+    text-align: center;      /* centers text inside */
+}
+.hide {
+  display: none;
+  position: absolute;   /* Take it out of normal flow */
+  background: white;    /* Give it a background so it covers behind */
+  border: 1px solid red;
+  padding: 10px;
+  z-index: 10;          /* Ensure it sits above other elements */
+}
+
+.myDIV {
+  position: relative;   /* Anchor the hover target */
+  display: inline-block;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+}
+
+
+
+

@@ -6,6 +6,7 @@ use App\Models\ArtistModel;
 use App\Models\GenreModel;
 use App\Models\LabelModel;
 use App\Models\MemberModel;
+use App\Models\TrackModel;
 use App\views\View;
 use App\Models\BookModel;
 use App\Models\SeriesModel;
@@ -20,22 +21,22 @@ class HomeController
     static function index()
     {
         try{
-            $trackModel = new AlbumModel();
-            $tracks = $trackModel->getDb()->execSql(
-                "SELECT * FROM `tracks` ORDER BY `id` DESC"
+            $albumModel = new AlbumModel();
+            $albums = $albumModel->getDb()->execSql(
+                "SELECT * FROM `albums` ORDER BY `id` DESC"
             );
             
-            $albums = new AlbumModel();
+            $tracks = new TrackModel();
 
             $genres = new GenreModel();
 
-            $label = new LabelModel();
+            $labels = new LabelModel();
 
-            $artist = new ArtistModel();
+            $artists = new ArtistModel();
 
             $member = new MemberModel();
 
-            View::render('layouts/index', ['tracks' => $tracks, 'albums' => $albums, 'genres' => $genres, 'label' => $label, 'artist' => $artist, 'member' => $member]);
+            View::render('layouts/index', ['tracks' => $tracks, 'albums' => $albums, 'genres' => $genres, 'labels' => $labels, 'artists' => $artists, 'member' => $member]);
         }
         catch(Exception){
             View::render('layouts/index');
