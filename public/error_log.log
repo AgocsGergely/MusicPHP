@@ -1,0 +1,106 @@
+[21-May-2025 15:18:54 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\gyak\hotel_oop\app\Views\rooms\index.php on line 4
+[21-May-2025 15:18:54 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gyak\hotel_oop\app\Views\rooms\index.php on line 4
+[02-Jun-2025 16:23:55 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 09:26:27 Europe/Berlin] PHP Warning:  Undefined property: App\Models\GuestsModel::$code in C:\xampp\htdocs\gyak\hotel_oop\app\Views\guests\edit.php on line 9
+[04-Jun-2025 09:26:27 Europe/Berlin] PHP Warning:  Undefined property: App\Models\GuestsModel::$year in C:\xampp\htdocs\gyak\hotel_oop\app\Views\guests\edit.php on line 10
+[04-Jun-2025 10:08:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$date of type ?int in C:\xampp\htdocs\gyak\hotel_oop\app\Models\Model.php:26
+Stack trace:
+#0 C:\xampp\htdocs\gyak\hotel_oop\app\Models\Model.php(87): App\Models\Model->mapToModel(Array)
+#1 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php(17): App\Models\Model->all(Array)
+#2 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#3 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/reservations')
+#4 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/reservations')
+#5 C:\xampp\htdocs\gyak\hotel_oop\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\xampp\htdocs\gyak\hotel_oop\app\Models\Model.php on line 26
+[04-Jun-2025 10:09:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\GuestsModel could not be converted to string in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\gyak\hotel_oop\app\Views\View.php(21): include()
+#1 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php(18): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#4 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\gyak\hotel_oop\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php on line 9
+[04-Jun-2025 10:11:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\GuestsModel as array in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php:36
+Stack trace:
+#0 C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php(5): App\Models\ReservationsModel->getGuestName()
+#1 C:\xampp\htdocs\gyak\hotel_oop\app\Views\View.php(21): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php(18): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\gyak\hotel_oop\public\index.php(24): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php on line 36
+[04-Jun-2025 10:12:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\GuestsModel as array in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php:36
+Stack trace:
+#0 C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php(5): App\Models\ReservationsModel->getGuestName()
+#1 C:\xampp\htdocs\gyak\hotel_oop\app\Views\View.php(21): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php(18): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\gyak\hotel_oop\public\index.php(24): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php on line 36
+[04-Jun-2025 10:12:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\GuestsModel as array in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php:36
+Stack trace:
+#0 C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php(5): App\Models\ReservationsModel->getGuestName()
+#1 C:\xampp\htdocs\gyak\hotel_oop\app\Views\View.php(21): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php(18): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(29): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\gyak\hotel_oop\app\Routing\Router.php(22): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\gyak\hotel_oop\public\index.php(24): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\gyak\hotel_oop\app\Models\ReservationsModel.php on line 36
+[04-Jun-2025 10:24:27 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 10:36:07 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 11:01:40 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 13:48:40 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 13:48:52 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:09:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:10:31 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:10:31 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:10:31 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 11
+[04-Jun-2025 14:11:07 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:07 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:07 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:11:35 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\create.php on line 12
+[04-Jun-2025 14:22:12 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php on line 63
+[04-Jun-2025 14:22:12 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\gyak\hotel_oop\app\Controllers\ReservationController.php on line 64
+[04-Jun-2025 14:22:13 Europe/Berlin] PHP Warning:  Attempt to read property "number" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php on line 10
+[04-Jun-2025 14:22:13 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\gyak\hotel_oop\app\Views\reservations\index.php on line 11
+[04-Jun-2025 15:17:24 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+[08-Sep-2025 14:35:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Routing\Router" not found in C:\AdatokPetie\Suli\12.osztaly\web_Kovacs\ZeneAlkalmazas\public\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\AdatokPetie\Suli\12.osztaly\web_Kovacs\ZeneAlkalmazas\public\index.php on line 23
+[15-Sep-2025 14:09:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Routing\Router" not found in C:\AdatokPetie\Suli\12.osztaly\web_Kovacs\Books_php\public\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\AdatokPetie\Suli\12.osztaly\web_Kovacs\Books_php\public\index.php on line 23
