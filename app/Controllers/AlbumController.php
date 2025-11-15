@@ -23,7 +23,7 @@ class AlbumController extends Controller {
     {
         $album = $this->model->find($id);
         if (!$album) {
-            $_SESSION['warning_message'] = "A szerző a megadott azonosítóval: $id nem található!";
+            $_SESSION['warning_message'] = "Az album a megadott azonosítóval: $id nem található!";
             $this->redirect('/albums');
         }
 
@@ -37,7 +37,7 @@ class AlbumController extends Controller {
 
     function save(array $data)
     {
-        if (empty($data['name'])) {
+        if (empty($data['artist_id'])) {
             $_SESSION['warning_message'] = "Az név kötelező mező!";
             $this->redirect('/albums/create');
         }
@@ -55,7 +55,7 @@ class AlbumController extends Controller {
     {
         $album = $this->model->find($id);
         if (!$album) {
-            $_SESSION['warning_message'] = "Az író a megadott azonosítóval: $id nem található";
+            $_SESSION['warning_message'] = "Az album a megadott azonosítóval: $id nem található";
             $this->redirect('/albums');
         }
         $this->render('albums/edit', ['albums' => $album]);
@@ -64,7 +64,7 @@ class AlbumController extends Controller {
     function update(int $id, array $data)
     {
         $album = $this->model->find($id);
-        if (!$album || empty($data['name'])) {
+        if (!$album || empty($data['artist_id'])) {
             $this->redirect('/albums');
         }
         $this->model->artist_id = $data['artist_id'];

@@ -55,7 +55,7 @@ class ArtistController extends Controller {
     {
         $artist = $this->model->find($id);
         if (!$artist) {
-            $_SESSION['warning_message'] = "Az író a megadott azonosítóval: $id nem található";
+            $_SESSION['warning_message'] = "Az szerző a megadott azonosítóval: $id nem található";
             $this->redirect('/artists');
         }
         $this->render('artists/edit', ['artists' => $artist]);
