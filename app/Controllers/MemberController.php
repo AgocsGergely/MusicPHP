@@ -23,7 +23,7 @@ class MemberController extends Controller {
     {
         $member = $this->model->find($id);
         if (!$member) {
-            $_SESSION['warning_message'] = "A szerző a megadott azonosítóval: $id nem található!";
+            $_SESSION['warning_message'] = "A tag a megadott azonosítóval: $id nem található!";
             $this->redirect('/members');
         }
 
@@ -55,7 +55,7 @@ class MemberController extends Controller {
     {
         $member = $this->model->find($id);
         if (!$member) {
-            $_SESSION['warning_message'] = "Az szerző a megadott azonosítóval: $id nem található";
+            $_SESSION['warning_message'] = "Az tag a megadott azonosítóval: $id nem található";
             $this->redirect('/members');
         }
         $this->render('members/edit', ['members' => $member]);
