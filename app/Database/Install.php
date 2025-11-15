@@ -34,6 +34,7 @@ class Install extends Database
             $this->createTableMembers();
             $this->createTableAlbums();
             $this->createTableTracks();
+            $this->uploadTestData();
             echo "<div style='color: green; text-align: center; font-size: 40px;'>Az adatbázis sikeresen létre lett hozva!</div>";
             return true;
         }catch (Exception $e) {

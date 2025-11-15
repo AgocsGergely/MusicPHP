@@ -22,7 +22,7 @@ class HomeController
         try{
             $trackModel = new AlbumModel();
             $tracks = $trackModel->getDb()->execSql(
-                "SELECT * FROM `tracks` ORDER BY `release_year` DESC, `id` DESC"
+                "SELECT * FROM `tracks` ORDER BY `id` DESC"
             );
             
             $albums = new AlbumModel();
@@ -35,7 +35,7 @@ class HomeController
 
             $member = new MemberModel();
 
-            View::render('layouts/index', ['books' => $tracks, 'albums' => $albums, 'genres' => $genres, 'label' => $label, 'artist' => $artist, 'member' => $member]);
+            View::render('layouts/index', ['tracks' => $tracks, 'albums' => $albums, 'genres' => $genres, 'label' => $label, 'artist' => $artist, 'member' => $member]);
         }
         catch(Exception){
             View::render('layouts/index');

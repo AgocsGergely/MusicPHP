@@ -35,7 +35,7 @@ if (!empty($tracks)) {
 HTML;
 
         if ($albumName) {
-            echo "<p>{$albumName} : {$track['album_num']}</p>";
+            echo "<p>{$albumName} : {$track['album_id']}</p>";
         }
 
         echo <<<HTML

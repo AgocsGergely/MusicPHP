@@ -1,4 +1,11 @@
-[15-Nov-2025 21:33:12 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.tracks' doesn't exist
-[15-Nov-2025 21:33:25 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'release_year' in 'order clause'
-[15-Nov-2025 21:33:47 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'release_year' in 'order clause'
-[15-Nov-2025 21:34:52 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.tracks' doesn't exist
+[15-Nov-2025 21:57:06 Europe/Berlin] PHP Warning:  Undefined variable $artists in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 16
+[15-Nov-2025 21:57:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function find() on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:16
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(38): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 16
