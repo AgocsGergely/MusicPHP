@@ -4,7 +4,7 @@ namespace App\Models;
 
 class LabelModel extends Model {
 
-    protected static $table = 'genres';
+    protected static $table = 'labels';
 
     public string|null $name = null;
 
