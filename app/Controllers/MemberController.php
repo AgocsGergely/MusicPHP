@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\MemberModel;
+use App\Models\ArtistModel;
 use App\views\Display;
 
 class MemberController extends Controller {
@@ -15,8 +16,9 @@ class MemberController extends Controller {
 
     function index() : void
     {
-        $members = $this->model->all(['order_by' => ['name'], 'direction' => ['DESC']]);
-        $this->render('members/index', ['members' => $members]);
+        $artists = new ArtistModel();
+        $members = $this->model->all(['order_by' => ['artist_id'], 'direction' => ['DESC']]);
+        $this->render('members/index', ['members' => $members, 'artists' => $artists]);
     }
 
     function show(int $id)
@@ -26,13 +28,14 @@ class MemberController extends Controller {
             $_SESSION['warning_message'] = "A tag a megadott azonosítóval: $id nem található!";
             $this->redirect('/members');
         }
-
+        
         $this->render('/members/show', ['members' => $member]);
     }
 
     function create()
-    {
-        $this->render('members/create');
+    { 
+        $artists = new ArtistModel();
+        $this->render('members/create', ['artists' => $artists]);
     }
 
     function save(array $data)
@@ -42,7 +45,7 @@ class MemberController extends Controller {
             $this->redirect('/members/create');
         }
 
-        $this->model->member_id = $data['member_id'];
+        $this->model->artist_id = $data['artist_id'];
         $this->model->name = $data['name'];
         $this->model->photo = $data['photo'];
         $this->model->birth_year = $data['birth_year'];
@@ -53,12 +56,13 @@ class MemberController extends Controller {
 
     function edit(int $id)
     {
+        $artists = new ArtistModel();
         $member = $this->model->find($id);
         if (!$member) {
             $_SESSION['warning_message'] = "Az tag a megadott azonosítóval: $id nem található";
             $this->redirect('/members');
         }
-        $this->render('members/edit', ['members' => $member]);
+        $this->render('members/edit', ['members' => $member, 'artists' => $artists]);
     }
 
     function update(int $id, array $data)
@@ -67,11 +71,11 @@ class MemberController extends Controller {
         if (!$member || empty($data['name'])) {
             $this->redirect('/members');
         }
-        $this->model->member_id = $data['member_id'];
-        $this->model->name = $data['name'];
-        $this->model->photo = $data['photo'];
-        $this->model->birth_year = $data['birth_year'];
-        $this->model->instrument = $data['instrument'];
+        $member->artist_id = $data['artist_id'];
+        $member->name = $data['name'];
+        $member->photo = $data['photo'];
+        $member->birth_year = $data['birth_year'];
+        $member->instrument = $data['instrument'];
         $member->update();
         $this->redirect('/members');
     }

@@ -156,5 +156,11 @@ main {
     border-radius: 6px;        /* optional styling */
     margin-bottom: 10px;
 }
+.bg-grey {
+    background-color: #5593bf;
+}
+.bg-normal {
+    background-color: #75b958;
+}
 
 

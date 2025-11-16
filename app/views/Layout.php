@@ -65,6 +65,7 @@ class Layout
         if ($dbModel->dbExists()){
         echo <<<HTML
                                 <li class="nav-item"><a class="nav-link" href="/artists">Artists</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/members">Members</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/labels">Labels</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/genres">Genres</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/albums">Albums</a></li>

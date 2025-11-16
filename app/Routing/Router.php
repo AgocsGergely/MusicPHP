@@ -80,6 +80,7 @@ class Router {
                 $memberController = new MemberController();
                 $memberController->edit($id);
                 break;
+            
 
                 //-------------------------------------------------
             case '/genres':
@@ -179,6 +180,7 @@ class Router {
                 $artistController->update($id, $data);
                 break;
             case '/members':
+                error_log('MemberController::save data: ' . print_r($data, true));
                 $id = $data['id'] ?? null;
                 $memberController = new MemberController();
                 $memberController->update($id, $data);
@@ -269,7 +271,7 @@ class Router {
                 $genreController = new GenreController();
                 $genreController->index();
                 break;
-            case 'members':
+            case '/members':
                 $memberController = new MemberController();
                 $memberController->index();
                 break;

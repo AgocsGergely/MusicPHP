@@ -114,6 +114,7 @@ abstract class Model implements ModelInterface
  
     public function update()
     {
+        error_log('Model::update called for ' . static::$table);
         $properties = get_object_vars($this);
         unset($properties['db']);
         unset($properties['table']);

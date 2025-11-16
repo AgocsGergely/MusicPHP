@@ -467,3 +467,144 @@ Stack trace:
 [16-Nov-2025 19:39:49 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
 [16-Nov-2025 19:42:18 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
 [16-Nov-2025 19:42:31 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 20:13:05 Europe/Berlin] PHP Warning:  Undefined variable $publishers in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 37
+[16-Nov-2025 20:13:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\wamp64\www\MusicPHP\app\views\members\edit.php:37
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\Controller.php(27): App\views\View::render('members/edit', Array)
+#2 C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php(64): App\Controllers\Controller->render('members/edit', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(81): App\Controllers\MemberController->edit(5)
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(36): App\Routing\Router->handlePostRequests('/members/edit')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('POST', '/members/edit')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 37
+[16-Nov-2025 20:14:00 Europe/Berlin] PHP Warning:  Undefined variable $publishers in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 38
+[16-Nov-2025 20:14:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\wamp64\www\MusicPHP\app\views\members\edit.php:38
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\Controller.php(27): App\views\View::render('members/edit', Array)
+#2 C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php(64): App\Controllers\Controller->render('members/edit', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(81): App\Controllers\MemberController->edit(5)
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(36): App\Routing\Router->handlePostRequests('/members/edit')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('POST', '/members/edit')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 38
+[16-Nov-2025 20:14:30 Europe/Berlin] PHP Warning:  Undefined variable $publishers in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 38
+[16-Nov-2025 20:14:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\wamp64\www\MusicPHP\app\views\members\edit.php:38
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\Controller.php(27): App\views\View::render('members/edit', Array)
+#2 C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php(64): App\Controllers\Controller->render('members/edit', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(81): App\Controllers\MemberController->edit(5)
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(36): App\Routing\Router->handlePostRequests('/members/edit')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('POST', '/members/edit')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 38
+[16-Nov-2025 20:17:39 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:18:07 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:20:19 Europe/Berlin] 5
+[16-Nov-2025 20:20:19 Europe/Berlin] 1
+[16-Nov-2025 20:20:19 Europe/Berlin] Robert Plant
+[16-Nov-2025 20:20:19 Europe/Berlin] Vocals
+[16-Nov-2025 20:20:19 Europe/Berlin] 2000
+[16-Nov-2025 20:20:19 Europe/Berlin] https://tse3.mm.bing.net/th/id/OIP.Z-brA8V8a7cvTUNag9jJ9gHaFj?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+[16-Nov-2025 20:20:19 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 73
+[16-Nov-2025 20:20:24 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:20:29 Europe/Berlin] 5
+[16-Nov-2025 20:20:29 Europe/Berlin] 1
+[16-Nov-2025 20:20:29 Europe/Berlin] Robert Plant
+[16-Nov-2025 20:20:29 Europe/Berlin] Vocals
+[16-Nov-2025 20:20:29 Europe/Berlin] 22
+[16-Nov-2025 20:20:29 Europe/Berlin] https://tse3.mm.bing.net/th/id/OIP.Z-brA8V8a7cvTUNag9jJ9gHaFj?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+[16-Nov-2025 20:20:29 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 73
+[16-Nov-2025 20:21:01 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:21:05 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:21:58 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:22:01 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:22:58 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:23:02 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:23:02 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:23:10 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:23:15 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:23:15 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:29:20 Europe/Berlin] PHP Warning:  Undefined property: App\Models\MemberModel::$release_year in C:\wamp64\www\MusicPHP\app\views\members\edit.php on line 44
+[16-Nov-2025 20:29:27 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:29:27 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:29:54 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:29:54 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:31:04 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:31:04 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:31:14 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 47
+[16-Nov-2025 20:31:14 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:38:13 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 8
+    [artist_id] => 3
+    [name] => John Bonhamm
+    [instrument] => Drums
+    [birth_year] => 1948
+    [photo] => https://tse4.mm.bing.net/th/id/OIP.T67aIErSH7SlBkZpTiMMtQHaJH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+)
+
+[16-Nov-2025 20:38:13 Europe/Berlin] PHP Warning:  Undefined array key "member_id" in C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php on line 73
+[16-Nov-2025 20:38:13 Europe/Berlin] Model::update called for members
+[16-Nov-2025 20:38:13 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'member_id' in 'field list'
+[16-Nov-2025 20:38:52 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 8
+    [artist_id] => 3
+    [name] => John Bonhamm
+    [instrument] => Drums
+    [birth_year] => 1948
+    [photo] => https://tse4.mm.bing.net/th/id/OIP.T67aIErSH7SlBkZpTiMMtQHaJH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+)
+
+[16-Nov-2025 20:38:52 Europe/Berlin] Model::update called for members
+[16-Nov-2025 20:38:57 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 8
+    [artist_id] => 3
+    [name] => John Bonham
+    [instrument] => Drums
+    [birth_year] => 1948
+    [photo] => https://tse4.mm.bing.net/th/id/OIP.T67aIErSH7SlBkZpTiMMtQHaJH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+)
+
+[16-Nov-2025 20:38:57 Europe/Berlin] Model::update called for members
+[16-Nov-2025 20:39:01 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 8
+    [artist_id] => 1
+    [name] => John Bonham
+    [instrument] => Drums
+    [birth_year] => 1948
+    [photo] => https://tse4.mm.bing.net/th/id/OIP.T67aIErSH7SlBkZpTiMMtQHaJH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+)
+
+[16-Nov-2025 20:39:01 Europe/Berlin] Model::update called for members
+[16-Nov-2025 20:39:07 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 8
+    [artist_id] => 3
+    [name] => John Bonham
+    [instrument] => Drums
+    [birth_year] => 1948
+    [photo] => https://tse4.mm.bing.net/th/id/OIP.T67aIErSH7SlBkZpTiMMtQHaJH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
+)
+
+[16-Nov-2025 20:39:07 Europe/Berlin] Model::update called for members
+[16-Nov-2025 20:43:49 Europe/Berlin] PHP Warning:  Undefined variable $artists in C:\wamp64\www\MusicPHP\app\views\members\create.php on line 15
+[16-Nov-2025 20:43:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\wamp64\www\MusicPHP\app\views\members\create.php:15
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\Controller.php(27): App\views\View::render('members/create', Array)
+#2 C:\wamp64\www\MusicPHP\app\Controllers\MemberController.php(37): App\Controllers\Controller->render('members/create')
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(77): App\Controllers\MemberController->create()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(36): App\Routing\Router->handlePostRequests('/members/create')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('POST', '/members/create')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\members\create.php on line 15
