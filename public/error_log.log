@@ -115,3 +115,208 @@ Stack trace:
 [16-Nov-2025 15:31:45 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
 [16-Nov-2025 15:57:07 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
 [16-Nov-2025 15:57:49 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:03:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:01 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:21 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:04:35 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:06:08 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:07:27 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:07:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\TrackModel could not be converted to string in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:60
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:07:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\TrackModel could not be converted to string in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:58
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:08:19 Europe/Berlin] PHP Warning:  Array to string conversion in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 58
+[16-Nov-2025 16:08:19 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:08:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\TrackModel could not be converted to string in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:61
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:08:37 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:08:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\TrackModel could not be converted to string in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:61
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:09:35 Europe/Berlin] PHP Warning:  Undefined array key "album_id" in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 60
+[16-Nov-2025 16:09:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\TrackModel could not be converted to string in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:62
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 62
+[16-Nov-2025 16:10:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\TrackModel as array in C:\wamp64\www\MusicPHP\app\views\layouts\index.php:59
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(262): App\Controllers\HomeController::index()
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#6 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 59
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61
+[16-Nov-2025 16:12:25 Europe/Berlin] PHP Warning:  Attempt to read property "album_id" on null in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 61

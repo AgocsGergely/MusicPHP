@@ -123,7 +123,7 @@ $this->execSql("INSERT IGNORE INTO `albums`
     (8, 4, 'So What', 'https://open.spotify.com/embed/track/7ILXfN4kJ3hYLitnPjOsLi'),
     (9, 4, 'Freddie Freeloader', 'https://open.spotify.com/embed/track/3n4xska4Mo6vXEMbpbLqSg'),
     (10, 5, 'Shake It Off', 'https://open.spotify.com/embed/track/5xTtaWoae3wi06K5WfVUUH'),
-    (11, 5, 'Blank Space', 'https://open.spotify.com/embed/track/1p80LdxRV74k0Aw6rQNWd4');");
+    (11, 5, 'Blank Space', 'https://open.spotify.com/embed/track/1p80LdxRV74UKvL8gnD7ky?utm_source=generator');");
 
 
     } catch (Exception $e) {

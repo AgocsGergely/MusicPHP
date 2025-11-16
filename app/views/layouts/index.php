@@ -48,13 +48,33 @@ if (!empty($albums)) {
             }
         }
         $text = "https://open.spotify.com/embed/track/2EqlS6tkEnglzr7tkKAAYD";
-        echo "<iframe src='{$text}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
+        //echo "<iframe src='{$text}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
         echo <<<HTML
             
             <p><strong>Kategória:</strong> {$genreName}</p>
             <p><strong>Kiadó:</strong> {$labelName}</p>
             <p><strong>Kiadás éve:</strong> {$album['release_year']}</p>
+            <p style="color: red;"><strong>Zeneszámok az albumból:</strong></p>
 HTML;
+//var_dump($tracks->all());
+
+$allTracks = $tracks->all();
+
+foreach ($allTracks as $track) {
+    if ($track->album_id === $album['id']) {
+                echo "<br><iframe src='{$track->spotify_embed}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
+    }
+}
+
+/*
+$tracks = $tracks->all(['where' => ['album_id' => $album['album_id']]]);
+        foreach ($tracks as $track) {
+            echo $track;
+            var_dump($track);
+            if ($track->album_id == $album['id']) {
+                echo "<iframe src='{$track["spotify_embed"]}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
+            }
+        }*/
 
         if ($albumName) {
             echo "<p>{$albumName} : {$album['album_id']}</p>";
