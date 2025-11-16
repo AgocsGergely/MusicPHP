@@ -16,6 +16,9 @@ if (!empty($albums)) {
         $artistName = $artists->find($album['artist_id'])->name ?? 'Ismeretlen szerző';
         $genreName = $genres->find($album['genre_id'])->name ?? 'Ismeretlen kategória';
         $labelName = $labels->find($album['label_id'])->name ?? 'Ismeretlen kiadó';
+        $artistPhoto = $artists->find($album['artist_id'])->photo ?? '';
+        $artistBirthYear = $artists->find($album['artist_id'])->birth_year ?? '';
+        $artistInstrument = $artists->find($album['artist_id'])->instrument ?? '';
 
         $albumName = null;
         if (!empty($album['album_id'])) {
@@ -28,7 +31,8 @@ if (!empty($albums)) {
           <img class="albumImage" src="{$album['photo']}" alt="{$album['title']}">
           <div class="album-info">
             <h3>{$album['title']}</h3>
-            <p><strong>Szerző:</strong> {$artistName}</p>
+            <div class="myDIV"><p><strong>Szerző:</strong> {$artistName}</p></div>
+                <div class="hide"><img class='memberImage' src='{$artistPhoto}'><br>$artistName <br>$artistInstrument<br>$artistBirthYear </div>
         HTML;
         $members = $member->all(['where' => ['artist_id' => $album['artist_id']]]);
         if ($artists->find($album['artist_id'])->is_band == 1) {
@@ -48,7 +52,7 @@ if (!empty($albums)) {
             }
         }
         $text = "https://open.spotify.com/embed/track/2EqlS6tkEnglzr7tkKAAYD";
-        //echo "<iframe src='{$text}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
+        
         echo <<<HTML
             
             <p><strong>Kategória:</strong> {$genreName}</p>
@@ -56,7 +60,6 @@ if (!empty($albums)) {
             <p><strong>Kiadás éve:</strong> {$album['release_year']}</p>
             <p style="color: red;"><strong>Zeneszámok az albumból:</strong></p>
 HTML;
-//var_dump($tracks->all());
 
 $allTracks = $tracks->all();
 
@@ -65,16 +68,6 @@ foreach ($allTracks as $track) {
                 echo "<br><iframe src='{$track->spotify_embed}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
     }
 }
-
-/*
-$tracks = $tracks->all(['where' => ['album_id' => $album['album_id']]]);
-        foreach ($tracks as $track) {
-            echo $track;
-            var_dump($track);
-            if ($track->album_id == $album['id']) {
-                echo "<iframe src='{$track["spotify_embed"]}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
-            }
-        }*/
 
         if ($albumName) {
             echo "<p>{$albumName} : {$album['album_id']}</p>";
