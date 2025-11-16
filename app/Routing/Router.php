@@ -195,7 +195,7 @@ class Router {
                 $labelController = new LabelController();
                 $labelController->update($id, $data);
                 break;
-            case '/album':
+            case '/albums':
                 $id = $data['id'] ?? null;
                 $albumController = new AlbumController();
                 $albumController->update($id, $data);
@@ -230,7 +230,7 @@ class Router {
                 $labelController = new LabelController();
                 $labelController->delete((int) $data['id']);
                 break;
-            case '/album':
+            case '/albums':
                 $albumController = new AlbumController();
                 $albumController->delete((int) $data['id']);
                 break;
@@ -279,7 +279,7 @@ class Router {
                 $labelController = new LabelController();
                 $labelController->index();
                 break;
-            case '/album':
+            case '/albums':
                 $serieController = new AlbumController();
                 $serieController->index();
                 break;
