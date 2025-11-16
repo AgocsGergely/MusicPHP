@@ -148,6 +148,13 @@ main {
     border-radius: 6px;        /* optional styling */
     margin-bottom: 10px;
 }
-
+.albumImage {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 954 / 954;   /* keeps the ratio */
+    object-fit: cover;         /* crop if needed */
+    border-radius: 6px;        /* optional styling */
+    margin-bottom: 10px;
+}
 
 

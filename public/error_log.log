@@ -107,3 +107,11 @@ Stack trace:
 #6 {main}
   thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 38
 [16-Nov-2025 14:48:53 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:12:15 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:15:54 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:15:56 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:27:09 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:29:51 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:31:45 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:57:07 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[16-Nov-2025 15:57:49 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'

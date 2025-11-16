@@ -1,0 +1,29 @@
+1.:
+Could you search for all of the embed links listed here and paste it instead of the playeholder links?: $this->execSql("INSERT IGNORE INTO `tracks` (`id`, `album_id`, `title`, `spotify_embed`) VALUES (1, 1, 'Come Together', 'https://embed.spotify.com/?uri=spotify:track:123abc'), (2, 1, 'Something', 'https://embed.spotify.com/?uri=spotify:track:456def'), (3, 1, 'Here Comes the Sun', 'https://embed.spotify.com/?uri=spotify:track:789ghi'), (4, 2, 'Rolling in the Deep', 'https://embed.spotify.com/?uri=spotify:track:abc123'), (5, 2, 'Someone Like You', 'https://embed.spotify.com/?uri=spotify:track:def456'), (6, 3, 'Stairway to Heaven', 'https://embed.spotify.com/?uri=spotify:track:ghi789'), (7, 3, 'Black Dog', 'https://embed.spotify.com/?uri=spotify:track:jkl012'), (8, 4, 'So What', 'https://embed.spotify.com/?uri=spotify:track:mno345'), (9, 4, 'Freddie Freeloader', 'https://embed.spotify.com/?uri=spotify:track:pqr678'), (10, 5, 'Shake It Off', 'https://embed.spotify.com/?uri=spotify:track:stu901'), (11, 5, 'Blank Space', 'https://embed.spotify.com/?uri=spotify:track:vwx234');");
+
+$this->execSql("INSERT IGNORE INTO `tracks` 
+    (`id`, `album_id`, `title`, `spotify_embed`) VALUES
+    (1, 1, 'Come Together', 'https://open.spotify.com/embed/track/2EqlS6tkEnglzr7tkKAAYD'),
+    (2, 1, 'Something', 'https://open.spotify.com/embed/track/3BQHpFgAp4l80e1XslIjNI'),
+    (3, 1, 'Here Comes the Sun', 'https://open.spotify.com/embed/track/6dGnYIeXmHdcikdzNNDMm2'),
+    (4, 2, 'Rolling in the Deep', 'https://open.spotify.com/embed/track/1c8gk2PeTE04A1pIDH9YMk'),
+    (5, 2, 'Someone Like You', 'https://open.spotify.com/embed/track/4kflIGfjdZJW4ot2ioixTB'),
+    (6, 3, 'Stairway to Heaven', 'https://open.spotify.com/embed/track/5CQ30WqJwcep0pYcV4AMNc'),
+    (7, 3, 'Black Dog', 'https://open.spotify.com/embed/track/1aoBEc0YDLO25nAoCGJRm2'),
+    (8, 4, 'So What', 'https://open.spotify.com/embed/track/7ILXfN4kJ3hYLitnPjOsLi'),
+    (9, 4, 'Freddie Freeloader', 'https://open.spotify.com/embed/track/3n4xska4Mo6vXEMbpbLqSg'),
+    (10, 5, 'Shake It Off', 'https://open.spotify.com/embed/track/5xTtaWoae3wi06K5WfVUUH'),
+    (11, 5, 'Blank Space', 'https://open.spotify.com/embed/track/1p80LdxRV74k0Aw6rQNWd4');");
+
+
+2.:
+Could you also search for real links for album covers here?: $this->execSql("INSERT IGNORE INTO `albums` (`id`, `artist_id`, `title`, `genre_id`, `photo`, `release_year`, `label_id`, `description`) VALUES (1, 1, 'Abbey Road', 1, 'https://example.com/abbeyroad.jpg', 1969, 4, 'Iconic album by The Beatles featuring hits like Come Together.'), (2, 2, '21', 2, 'https://example.com/21.jpg', 2011, 5, 'Adele\'s breakthrough album with songs like Rolling in the Deep.'), (3, 3, 'IV', 1, 'https://example.com/ledzeppeliniv.jpg', 1971, 3, 'Led Zeppelin\'s untitled fourth album including Stairway to Heaven.'), (4, 4, 'Kind of Blue', 4, 'https://example.com/kindofblue.jpg', 1959, 5, 'Seminal jazz album by Miles Davis.'), (5, 5, '1989', 2, 'https://example.com/1989.jpg', 2014, 2, 'Taylor Swift\'s pop transition album with Shake It Off.');");
+
+$this->execSql("INSERT IGNORE INTO `albums` 
+    (`id`, `artist_id`, `title`, `genre_id`, `photo`, `release_year`, `label_id`, `description`) VALUES
+    (1, 1, 'Abbey Road', 1, 'https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg', 1969, 4, 'Iconic album by The Beatles featuring hits like Come Together.'),
+    (2, 2, '21', 2, 'https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png', 2011, 5, 'Adele\'s breakthrough album with songs like Rolling in the Deep.'),
+    (3, 3, 'IV', 1, 'https://upload.wikimedia.org/wikipedia/en/8/8e/Led_Zeppelin_-_Led_Zeppelin_IV.jpg', 1971, 3, 'Led Zeppelin\'s untitled fourth album including Stairway to Heaven.'),
+    (4, 4, 'Kind of Blue', 4, 'https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg', 1959, 5, 'Seminal jazz album by Miles Davis.'),
+    (5, 5, '1989', 2, 'https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png', 2014, 2, 'Taylor Swift\'s pop transition album with Shake It Off.');");
+

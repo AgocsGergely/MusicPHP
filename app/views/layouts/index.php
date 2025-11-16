@@ -25,7 +25,7 @@ if (!empty($albums)) {
 
         echo <<<HTML
         <div class="album-card">
-          <img src="{$album['photo']}" alt="{$album['title']}">
+          <img class="albumImage" src="{$album['photo']}" alt="{$album['title']}">
           <div class="album-info">
             <h3>{$album['title']}</h3>
             <p><strong>Szerző:</strong> {$artistName}</p>
@@ -47,7 +47,8 @@ if (!empty($albums)) {
                 echo "<p>Nincsenek elérhető tagok.</p>";
             }
         }
-        
+        $text = "https://open.spotify.com/embed/track/2EqlS6tkEnglzr7tkKAAYD";
+        echo "<iframe src='{$text}' width='300' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>";
         echo <<<HTML
             
             <p><strong>Kategória:</strong> {$genreName}</p>
