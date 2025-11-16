@@ -115,13 +115,12 @@ abstract class Model implements ModelInterface
     public function update()
     {
         $properties = get_object_vars($this);
-        error_log("Updating with properties: " . print_r($properties, true));
         unset($properties['db']);
         unset($properties['table']);
         $id = $properties['id'] ?? null;
  
         if (!$id) {
-            error_log("Update failed: ID is missing.");
+
             $_SESSION['error_message'] = "Egyedi azonosító nincs megadva!";
             return false;
         }
@@ -137,7 +136,7 @@ abstract class Model implements ModelInterface
         $sql = "UPDATE `" . static::$table . "` SET $setClause WHERE id = :id";
         // Add 'id' back for the WHERE clause
         $properties['id'] = $id;
-        error_log("Executing SQL: $sql with properties: " . print_r($properties, true));
+        
         return $this->db->execSql($sql, $properties);
     }
 }
