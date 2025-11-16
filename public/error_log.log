@@ -411,3 +411,59 @@ Stack trace:
     [id] => 13
 )
 
+[16-Nov-2025 19:15:51 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 72
+[16-Nov-2025 19:15:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ArtistModel::$birth_year of type ?int in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php:73
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Routing\Router.php(179): App\Controllers\ArtistController->update(1, Array)
+#1 C:\wamp64\www\MusicPHP\app\Routing\Router.php(39): App\Routing\Router->handlePatchRequests('/artists')
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('PATCH', '/artists')
+#3 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 73
+[16-Nov-2025 19:18:44 Europe/Berlin] PHP Warning:  Undefined variable $artistIsBand in C:\wamp64\www\MusicPHP\app\views\artists\edit.php on line 49
+[16-Nov-2025 19:28:22 Europe/Berlin] PHP Warning:  Undefined variable $artists in C:\wamp64\www\MusicPHP\app\views\artists\create.php on line 21
+[16-Nov-2025 19:28:22 Europe/Berlin] PHP Warning:  Attempt to read property "birth_year" on null in C:\wamp64\www\MusicPHP\app\views\artists\create.php on line 21
+[16-Nov-2025 19:28:22 Europe/Berlin] PHP Warning:  Undefined variable $artists in C:\wamp64\www\MusicPHP\app\views\artists\create.php on line 25
+[16-Nov-2025 19:28:22 Europe/Berlin] PHP Warning:  Attempt to read property "instrument" on null in C:\wamp64\www\MusicPHP\app\views\artists\create.php on line 25
+[16-Nov-2025 19:29:10 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 19:32:40 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 72
+[16-Nov-2025 19:32:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ArtistModel::$birth_year of type ?int in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php:73
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Routing\Router.php(179): App\Controllers\ArtistController->update(1, Array)
+#1 C:\wamp64\www\MusicPHP\app\Routing\Router.php(39): App\Routing\Router->handlePatchRequests('/artists')
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('PATCH', '/artists')
+#3 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 73
+[16-Nov-2025 19:33:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ArtistModel::$birth_year of type ?int in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php:73
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Routing\Router.php(179): App\Controllers\ArtistController->update(1, Array)
+#1 C:\wamp64\www\MusicPHP\app\Routing\Router.php(39): App\Routing\Router->handlePatchRequests('/artists')
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('PATCH', '/artists')
+#3 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 73
+[16-Nov-2025 19:34:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "name" on null in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php:70
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Routing\Router.php(179): App\Controllers\ArtistController->update(1, Array)
+#1 C:\wamp64\www\MusicPHP\app\Routing\Router.php(39): App\Routing\Router->handlePatchRequests('/artists')
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('PATCH', '/artists')
+#3 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 70
+[16-Nov-2025 19:35:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ArtistModel::$birth_year of type ?int in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php:73
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Routing\Router.php(179): App\Controllers\ArtistController->update(1, Array)
+#1 C:\wamp64\www\MusicPHP\app\Routing\Router.php(39): App\Routing\Router->handlePatchRequests('/artists')
+#2 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('PATCH', '/artists')
+#3 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 73
+[16-Nov-2025 19:35:51 Europe/Berlin] PHP Warning:  Undefined array key "is_band" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 75
+[16-Nov-2025 19:36:25 Europe/Berlin] PHP Warning:  Undefined array key "is_band" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 75
+[16-Nov-2025 19:36:36 Europe/Berlin] PHP Warning:  Undefined array key "is_band" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 75
+[16-Nov-2025 19:37:25 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 19:38:05 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 19:39:49 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 19:42:18 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46
+[16-Nov-2025 19:42:31 Europe/Berlin] PHP Warning:  Undefined array key "photo" in C:\wamp64\www\MusicPHP\app\Controllers\ArtistController.php on line 46

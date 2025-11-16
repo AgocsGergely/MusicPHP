@@ -9,9 +9,9 @@ class ArtistModel extends Model {
     public string|null $name = null;
     public string|null $bio = null;
     public string|null $photo = null;
-    public int|null $birth_year = null;
+    public string|null $birth_year = null;
     public string|null $instrument = null;
-    public int|null $is_band = null;
+    public string|null $is_band = null;
 
     function __construct(?string $name = null, ?string $bio = null, ?string $photo = null, ?int $birth_year = null, ?string $instrument = null, ?int $is_band = null) {
         parent::__construct();

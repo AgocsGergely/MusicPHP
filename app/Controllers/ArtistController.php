@@ -67,12 +67,12 @@ class ArtistController extends Controller {
         if (!$artist || empty($data['name'])) {
             $this->redirect('/artists');
         }
-        $this->model->name = $data['name'];
-        $this->model->bio = $data['bio'];
-        $this->model->photo = $data['photo'];
-        $this->model->birth_year = $data['birth_year'];
-        $this->model->instrument = $data['instrument'];
-        $this->model->is_band = $data['is_band'];
+        $artist->name = $data['name'];
+        $artist->bio = $data['bio'];
+        $artist->photo = $data['photo'];
+        $artist->birth_year = $data['birth_year'];
+        $artist->instrument = $data['instrument'];
+        $artist->is_band = $data['is_band'];
         $artist->update();
         $this->redirect('/artists');
     }
