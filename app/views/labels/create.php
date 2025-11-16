@@ -5,7 +5,7 @@ echo <<<HTML
     <div class="row justify-content-center">
         <div class="col-md-6">
             <form method="post" action="/labels" class="p-4 border rounded shadow-sm bg-light">
-                <h4 class="mb-4 text-center">Új kategória hozzáadása</h4>
+                <h4 class="mb-4 text-center">Új műfaj hozzáadása</h4>
 
                 <div class="mb-3">
                     <label for="name" class="form-label">Név</label>

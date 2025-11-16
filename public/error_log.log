@@ -608,3 +608,51 @@ Stack trace:
 #6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
 #7 {main}
   thrown in C:\wamp64\www\MusicPHP\app\views\members\create.php on line 15
+[16-Nov-2025 20:54:35 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+[16-Nov-2025 20:56:10 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+[16-Nov-2025 20:56:36 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\index.php on line 13
+[16-Nov-2025 21:02:55 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$is_band in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:02:55 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$is_band in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:02:55 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$is_band in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:02:55 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$is_band in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:02:55 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$is_band in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:22 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:22 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:22 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:22 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:22 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:50 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:50 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:50 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:50 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:03:50 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\edit.php on line 26
+[16-Nov-2025 21:04:45 Europe/Berlin] Model::update called for tracks
+[16-Nov-2025 21:05:12 Europe/Berlin] Model::update called for tracks
+[16-Nov-2025 21:05:24 Europe/Berlin] PHP Warning:  Undefined variable $artists in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 15
+[16-Nov-2025 21:05:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\wamp64\www\MusicPHP\app\views\tracks\create.php:15
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\View.php(18): include()
+#1 C:\wamp64\www\MusicPHP\app\Controllers\Controller.php(27): App\views\View::render('tracks/create', Array)
+#2 C:\wamp64\www\MusicPHP\app\Controllers\TrackController.php(39): App\Controllers\Controller->render('tracks/create', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(136): App\Controllers\TrackController->create()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(36): App\Routing\Router->handlePostRequests('/tracks/create')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('POST', '/tracks/create')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 15
+[16-Nov-2025 21:06:33 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 17
+[16-Nov-2025 21:06:33 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 17
+[16-Nov-2025 21:06:33 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 17
+[16-Nov-2025 21:06:33 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 17
+[16-Nov-2025 21:06:33 Europe/Berlin] PHP Warning:  Undefined property: App\Models\AlbumModel::$name in C:\wamp64\www\MusicPHP\app\views\tracks\create.php on line 17

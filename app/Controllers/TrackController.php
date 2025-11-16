@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\TrackModel;
+use App\Models\AlbumModel;
 use App\views\Display;
 
 class TrackController extends Controller {
@@ -15,24 +16,27 @@ class TrackController extends Controller {
 
     function index() : void
     {
-        $tracks = $this->model->all(['order_by' => ['name'], 'direction' => ['DESC']]);
-        $this->render('tracks/index', ['tracks' => $tracks]);
+        $albums = new AlbumModel();
+        $tracks = $this->model->all(['order_by' => ['album_id'], 'direction' => ['DESC']]);
+        $this->render('tracks/index', ['tracks' => $tracks, 'albums' => $albums]);
     }
 
     function show(int $id)
     {
+        $albums = new AlbumModel();
         $track = $this->model->find($id);
         if (!$track) {
             $_SESSION['warning_message'] = "A zeneszám a megadott azonosítóval: $id nem található!";
             $this->redirect('/tracks');
         }
 
-        $this->render('/tracks/show', ['tracks' => $track]);
+        $this->render('/tracks/show', ['tracks' => $track, 'albums' => $albums]);
     }
 
     function create()
     {
-        $this->render('tracks/create');
+        $albums = new AlbumModel();
+        $this->render('tracks/create', ['albums' => $albums]);
     }
 
     function save(array $data)
@@ -51,12 +55,13 @@ class TrackController extends Controller {
 
     function edit(int $id)
     {
+        $albums = new AlbumModel();
         $track = $this->model->find($id);
         if (!$track) {
             $_SESSION['warning_message'] = "Az zeneszám a megadott azonosítóval: $id nem található";
             $this->redirect('/tracks');
         }
-        $this->render('tracks/edit', ['tracks' => $track]);
+        $this->render('tracks/edit', ['tracks' => $track, 'albums' => $albums]);
     }
 
     function update(int $id, array $data)
@@ -65,9 +70,9 @@ class TrackController extends Controller {
         if (!$track || empty($data['title'])) {
             $this->redirect('/tracks');
         }
-        $this->model->album_id = $data['album_id'];
-        $this->model->title = $data['title'];
-        $this->model->spotify_embed = $data['spotify_embed'];
+        $track->album_id = $data['album_id'];
+        $track->title = $data['title'];
+        $track->spotify_embed = $data['spotify_embed'];
         $track->update();
         $this->redirect('/tracks');
     }
