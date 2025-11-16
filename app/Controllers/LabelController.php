@@ -63,7 +63,7 @@ class LabelController extends Controller {
         if (!$label || empty($data['name'])) {
             $this->redirect('/labels');
         }
-        $this->model->name = $data['name'];
+        $label->name = $data['name'];
         $label->update();
         $this->redirect('/labels');
     }
