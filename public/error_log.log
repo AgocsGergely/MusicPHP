@@ -332,3 +332,82 @@ Stack trace:
 [16-Nov-2025 17:16:59 UTC] could not find driver
 [16-Nov-2025 17:17:04 UTC] could not find driver
 [16-Nov-2025 17:17:04 UTC] could not find driver
+[16-Nov-2025 18:33:49 Europe/Berlin] nem jo
+[16-Nov-2025 18:34:44 Europe/Berlin] Tóth Júli
+[16-Nov-2025 18:35:34 Europe/Berlin] Tóth Júli
+[16-Nov-2025 18:36:55 Europe/Berlin] Executing SQL: UPDATE `genres` SET name = :name WHERE id = :id with properties: Array
+(
+    [name] => Tóth Júliaa
+    [id] => 13
+)
+
+[16-Nov-2025 18:38:55 Europe/Berlin] Tóth Júl
+[16-Nov-2025 18:38:55 Europe/Berlin] Executing SQL: UPDATE `genres` SET name = :name WHERE id = :id with properties: Array
+(
+    [name] => Tóth Júliaa
+    [id] => 13
+)
+
+[16-Nov-2025 18:39:33 Europe/Berlin] Tóth Júl
+[16-Nov-2025 18:39:33 Europe/Berlin] Updating with properties: Array
+(
+    [id] => 13
+    [db] => App\Database\Database Object
+        (
+            [pdo:App\Database\Database:private] => PDO Object
+                (
+                )
+
+        )
+
+    [name] => Tóth Júliaa
+)
+
+[16-Nov-2025 18:39:33 Europe/Berlin] Executing SQL: UPDATE `genres` SET name = :name WHERE id = :id with properties: Array
+(
+    [name] => Tóth Júliaa
+    [id] => 13
+)
+
+[16-Nov-2025 18:40:46 Europe/Berlin] Tóth Júli
+[16-Nov-2025 18:40:46 Europe/Berlin] Updating with properties: Array
+(
+    [id] => 13
+    [db] => App\Database\Database Object
+        (
+            [pdo:App\Database\Database:private] => PDO Object
+                (
+                )
+
+        )
+
+    [name] => Tóth Júliaa
+)
+
+[16-Nov-2025 18:40:46 Europe/Berlin] Executing SQL: UPDATE `genres` SET name = :name WHERE id = :id with properties: Array
+(
+    [name] => Tóth Júliaa
+    [id] => 13
+)
+
+[16-Nov-2025 18:48:40 Europe/Berlin] 
+[16-Nov-2025 18:48:40 Europe/Berlin] Updating with properties: Array
+(
+    [id] => 13
+    [db] => App\Database\Database Object
+        (
+            [pdo:App\Database\Database:private] => PDO Object
+                (
+                )
+
+        )
+
+    [name] => Tóth Júl
+)
+
+[16-Nov-2025 18:48:40 Europe/Berlin] Executing SQL: UPDATE `genres` SET name = :name WHERE id = :id with properties: Array
+(
+    [name] => Tóth Júl
+    [id] => 13
+)
+

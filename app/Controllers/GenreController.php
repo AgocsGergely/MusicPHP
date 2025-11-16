@@ -61,9 +61,11 @@ class GenreController extends Controller {
     {
         $genre = $this->model->find($id);
         if (!$genre || empty($data['name'])) {
+            
             $this->redirect('/genres');
         }
-        $this->model->name = $data['name'];
+        
+        $genre->name = $data['name']; 
         $genre->update();
         $this->redirect('/genres');
     }

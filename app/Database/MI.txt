@@ -27,3 +27,43 @@ $this->execSql("INSERT IGNORE INTO `albums`
     (4, 4, 'Kind of Blue', 4, 'https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg', 1959, 5, 'Seminal jazz album by Miles Davis.'),
     (5, 5, '1989', 2, 'https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png', 2014, 2, 'Taylor Swift\'s pop transition album with Shake It Off.');");
 
+3.:
+Could you also search for real images here too?:         $this->execSql("INSERT IGNORE INTO `members` (`id`, `artist_id`, `name`, `instrument`, `birth_year`, `photo`) VALUES
+            (1, 1, 'John Lennon', 'Guitar/Vocals', 1940, 'https://example.com/johnlennon.jpg'),
+            (2, 1, 'Paul McCartney', 'Bass/Vocals', 1942, 'https://example.com/paulmccartney.jpg'),
+            (3, 1, 'George Harrison', 'Guitar', 1943, 'https://example.com/georgeharrison.jpg'),
+            (4, 1, 'Ringo Starr', 'Drums', 1940, 'https://example.com/ringostarr.jpg'),
+            (5, 3, 'Robert Plant', 'Vocals', 1948, 'https://example.com/robertplant.jpg'),
+            (6, 3, 'Jimmy Page', 'Guitar', 1944, 'https://example.com/jimmypage.jpg'),
+            (7, 3, 'John Paul Jones', 'Bass', 1946, 'https://example.com/johnpauljones.jpg'),
+            (8, 3, 'John Bonham', 'Drums', 1948, 'https://example.com/johnbonham.jpg');");
+
+
+$this->execSql("INSERT IGNORE INTO `members` 
+    (`id`, `artist_id`, `name`, `instrument`, `birth_year`, `photo`) VALUES
+    (1, 1, 'John Lennon', 'Guitar/Vocals', 1940, 'https://upload.wikimedia.org/wikipedia/commons/8/85/John_Lennon_1969_%28cropped%29.jpg'),
+    (2, 1, 'Paul McCartney', 'Bass/Vocals', 1942, 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Paul_McCartney_2009.jpg'),
+    (3, 1, 'George Harrison', 'Guitar', 1943, 'https://upload.wikimedia.org/wikipedia/commons/0/0e/George_Harrison_1974.jpg'),
+    (4, 1, 'Ringo Starr', 'Drums', 1940, 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Ringo_Starr_2019.jpg'),
+    (5, 3, 'Robert Plant', 'Vocals', 1948, 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Robert_Plant_2018.jpg'),
+    (6, 3, 'Jimmy Page', 'Guitar', 1944, 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Jimmy_Page_2014.jpg'),
+    (7, 3, 'John Paul Jones', 'Bass', 1946, 'https://upload.wikimedia.org/wikipedia/commons/4/4d/John_Paul_Jones_2010.jpg'),
+    (8, 3, 'John Bonham', 'Drums', 1948, 'https://upload.wikimedia.org/wikipedia/commons/6/6a/John_Bonham_1970.jpg');");
+
+4.:
+And here too?:
+        $this->execSql("INSERT IGNORE INTO `artists` (`id`, `name`, `bio`, `photo`, `birth_year`, `instrument`, `is_band`) VALUES
+            (1, 'The Beatles', 'Legendary British rock band.', 'https://example.com/beatles.jpg', NULL, NULL, 1),
+            (2, 'Adele', 'British singer-songwriter known for powerful vocals.', 'https://example.com/adele.jpg', 1988, 'Vocals', 0),
+            (3, 'Led Zeppelin', 'Iconic rock band from the 70s.', 'https://example.com/ledzeppelin.jpg', NULL, NULL, 1),
+            (4, 'Miles Davis', 'Jazz trumpet legend.', 'https://example.com/milesdavis.jpg', 1926, 'Trumpet', 0),
+            (5, 'Taylor Swift', 'Pop and country singer-songwriter.', 'https://example.com/taylorswift.jpg', 1989, 'Guitar/Vocals', 0);");
+
+    $this->execSql("INSERT IGNORE INTO `artists` 
+    (`id`, `name`, `bio`, `photo`, `birth_year`, `instrument`, `is_band`) VALUES
+    (1, 'The Beatles', 'Legendary British rock band.', 'https://upload.wikimedia.org/wikipedia/commons/d/df/The_Fabs.JPG', NULL, NULL, 1),
+    (2, 'Adele', 'British singer-songwriter known for powerful vocals.', 'https://upload.wikimedia.org/wikipedia/commons/6/67/Adele_2016.jpg', 1988, 'Vocals', 0),
+    (3, 'Led Zeppelin', 'Iconic rock band from the 70s.', 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Led_Zeppelin_1977.jpg', NULL, NULL, 1),
+    (4, 'Miles Davis', 'Jazz trumpet legend.', 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Miles_Davis_by_Palumbo.jpg', 1926, 'Trumpet', 0),
+    (5, 'Taylor Swift', 'Pop and country singer-songwriter.', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Taylor_Swift_2023.jpg', 1989, 'Guitar/Vocals', 0);");
+
