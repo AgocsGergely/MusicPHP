@@ -92,7 +92,7 @@ class Install extends Database
             (5, 'Taylor Swift', 'Pop and country singer-songwriter.', 'https://example.com/taylorswift.jpg', 1989, 'Guitar/Vocals', 0);");
 
         $this->execSql("INSERT IGNORE INTO `members` (`id`, `artist_id`, `name`, `instrument`, `birth_year`, `photo`) VALUES
-            (1, 1, 'John Lennon', 'Guitar/Vocals', 1940, 'https://example.com/johnlennon.jpg'),
+            (1, 1, 'John Lennon', 'Guitar/Vocals', 1940, 'https://tse3.mm.bing.net/th/id/OIP.N-3Iy9mIX69pwRm6OX5-cgHaG7?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3'),
             (2, 1, 'Paul McCartney', 'Bass/Vocals', 1942, 'https://example.com/paulmccartney.jpg'),
             (3, 1, 'George Harrison', 'Guitar', 1943, 'https://example.com/georgeharrison.jpg'),
             (4, 1, 'Ringo Starr', 'Drums', 1940, 'https://example.com/ringostarr.jpg'),

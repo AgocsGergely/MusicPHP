@@ -106,3 +106,4 @@ Stack trace:
 #5 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
 #6 {main}
   thrown in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 38
+[16-Nov-2025 14:48:53 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'

@@ -39,13 +39,15 @@ if (!empty($albums)) {
                 foreach ($members as $mem) {
                     if ($mem->artist_id == $album['artist_id'])
                     echo "<li><div class='myDIV'>$mem->name</div>
-                <div class='hide'>$mem->instrument <br> $mem->birth_year  </div></li>";
+                <div class='hide'><img class='memberImage' src='$mem->photo'><br>$mem->name <br>$mem->instrument <br>Birth year: $mem->birth_year  </div></li>";
+
                 }
                 echo "</ul>";
             } else {
                 echo "<p>Nincsenek elérhető tagok.</p>";
             }
         }
+        
         echo <<<HTML
             
             <p><strong>Kategória:</strong> {$genreName}</p>
