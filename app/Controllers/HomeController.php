@@ -23,7 +23,7 @@ class HomeController
         try{
             $albumModel = new AlbumModel();
             $albums = $albumModel->getDb()->execSql(
-                "SELECT * FROM `albums` ORDER BY `id` DESC"
+                "SELECT * FROM `albums` ORDER BY `release_year` DESC, `id` DESC"
             );
             
             $tracks = new TrackModel();

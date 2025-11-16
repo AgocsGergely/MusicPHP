@@ -67,3 +67,53 @@ And here too?:
     (4, 'Miles Davis', 'Jazz trumpet legend.', 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Miles_Davis_by_Palumbo.jpg', 1926, 'Trumpet', 0),
     (5, 'Taylor Swift', 'Pop and country singer-songwriter.', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Taylor_Swift_2023.jpg', 1989, 'Guitar/Vocals', 0);");
 
+5.:
+How do I make this card-style and the text centered? 
+(Belinkeltem az layout/index.php-t)
+
+/* your stylesheet */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.album-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-card h3 {
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+.album-card p {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.albumImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.album-info {
+    width: 100%;
+    text-align: center;
+}
+
+.album-info ul {
+    text-align: center;
+    list-style-position: inside;
+}
