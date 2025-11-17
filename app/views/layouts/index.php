@@ -31,9 +31,22 @@ if (!empty($albums)) {
           <img class="albumImage" src="{$album['photo']}" alt="{$album['title']}">
           <div class="album-info">
             <h3>{$album['title']}</h3>
+        HTML;
+            $ratingController = new \App\Controllers\RatingController();
+           $avgRating = $ratingController->averageRating($album['id']);
+              // Display stars instead of numbers
+   $fullStars = floor($avgRating ?? 0);
+   $hasHalfStar = ($avgRating ?? 0) - $fullStars >= 0.5 ? 1 : 0;
+   $emptyStars = 5 - $fullStars - $hasHalfStar;
+   
+   $starsHtml = str_repeat('★', $fullStars) . ($hasHalfStar ? '⯪' : '') . str_repeat('☆', $emptyStars);
+   $avgDisplay = $avgRating ? round($avgRating, 1) : 'Nincs értékelés';
+  echo "<p> {$starsHtml} ({$avgDisplay} / 5)</p>";
+
+echo <<<HTML
             <div class="myDIV"><p><strong>Szerző:</strong> {$artistName}</p></div>
                 <div class="hide"><img class='memberImage' src='{$artistPhoto}'><br>$artistName <br>$artistInstrument<br>$artistBirthYear </div>
-        HTML;
+    HTML;
         $members = $member->all(['where' => ['artist_id' => $album['artist_id']]]);
         if ($artists->find($album['artist_id'])->is_band == 1) {
             echo "<p><strong>Zenekar tagjai:</strong></p>";
@@ -74,18 +87,7 @@ foreach ($allTracks as $track) {
         }
     }
 
-    $ratingController = new \App\Controllers\RatingController();
-           $avgRating = $ratingController->averageRating($album['id']);
-              // Display stars instead of numbers
-   $fullStars = floor($avgRating ?? 0);
-   $hasHalfStar = ($avgRating ?? 0) - $fullStars >= 0.5 ? 1 : 0;
-   $emptyStars = 5 - $fullStars - $hasHalfStar;
-   
-   $starsHtml = str_repeat('★', $fullStars) . ($hasHalfStar ? '⯪' : '') . str_repeat('☆', $emptyStars);
-   $avgDisplay = $avgRating ? round($avgRating, 1) : 'Nincs értékelés';
-  echo "<p><strong>Átlagos értékelés:</strong> {$starsHtml} ({$avgDisplay} / 5)</p>";
-
-           
+    
 
            echo <<<HTML
            <form method="post" action="/ratings" class="rating-form mt-3">
