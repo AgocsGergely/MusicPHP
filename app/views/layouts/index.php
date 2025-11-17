@@ -5,7 +5,7 @@ use App\views\Layout;
 // Add stylish header
 echo '
 <div class="d-flex justify-content-center">
-  <h2 class="section-title mb-4">Most recent albums</h2>
+  <h2 class="section-title mb-4">Legújabb albumok</h2>
 </div>';
 
 echo '<div class="book-list">';
