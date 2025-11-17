@@ -194,7 +194,7 @@ main {
 
 .albumImage {
     width: 100%;
-    height: 250px;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 6px;
 }
