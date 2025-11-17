@@ -88,7 +88,7 @@ class Layout
         <footer class="bg-light text-center text-lg-start mt-5">
             <hr class="m-0">
             <div class="text-center p-3" style="background-color: rgb(255, 218, 125);">
-                &copy; 2025 
+                &copy; 2025 Agócs Gergely Botond
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
