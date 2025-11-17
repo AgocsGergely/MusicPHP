@@ -111,6 +111,23 @@ $this->execSql("INSERT IGNORE INTO `albums`
     (4, 4, 'Kind of Blue', 4, 'https://th.bing.com/th/id/OIP.YYbr6WG2XzmhYAS_zZF6pwHaHV?o=7&cb=ucfimg2rm=3&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3', 1959, 5, 'Seminal jazz album by Miles Davis.'),
     (5, 5, '1989', 2, 'https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png', 2014, 2, 'Taylor Swift\'s pop transition album with Shake It Off.');");
 
+$this->execSql("INSERT IGNORE INTO `ratings` 
+    (`id`, `album_id`, `rating`) VALUES
+    (1, 1, 5),
+    (1, 1, 4),
+    (2, 2, 4),
+    (3, 3, 5),
+    (4, 4, 5),
+    (5, 5, 4);");
+
+        $this->execSql("INSERT IGNORE INTO `albums`
+    (`id`, `artist_id`, `title`, `genre_id`, `photo`, `release_year`, `label_id`, `description`) VALUES
+    (1, 1, 'Abbey Road', 1, 'https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg', 1969, 4, 'Iconic album by The Beatles featuring hits like Come Together.'),
+    (2, 2, '21', 2, 'https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png', 2011, 5, 'Adele\'s breakthrough album with songs like Rolling in the Deep.'),
+    (3, 3, 'IV', 1, 'https://tse1.mm.bing.net/th/id/OIP.v8wzE6_jViOfazwYbaUZawHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3', 1971, 3, 'Led Zeppelin\'s untitled fourth album including Stairway to Heaven.'),
+    (4, 4, 'Kind of Blue', 4, 'https://th.bing.com/th/id/OIP.YYbr6WG2XzmhYAS_zZF6pwHaHV?o=7&cb=ucfimg2rm=3&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3', 1959, 5, 'Seminal jazz album by Miles Davis.'),
+    (5, 5, '1989', 2, 'https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png', 2014, 2, 'Taylor Swift\'s pop transition album with Shake It Off.');");
+
         $this->execSql("INSERT IGNORE INTO `tracks` 
     (`id`, `album_id`, `title`, `spotify_embed`) VALUES
     (1, 1, 'Come Together', 'https://open.spotify.com/embed/track/2EqlS6tkEnglzr7tkKAAYD'),
@@ -164,11 +181,20 @@ $this->execSql("INSERT IGNORE INTO `albums`
             release_year INT,
             label_id INT,
             description TEXT(2048),
-            FOREIGN KEY (artist_id) REFERENCES artists(id) ON DELETE SET NULL,
-            FOREIGN KEY (genre_id) REFERENCES genres(id) ON DELETE SET NULL,
-            FOREIGN KEY (label_id) REFERENCES labels(id) ON DELETE SET NULL
+            FOREIGN KEY (artist_id) REFERENCES artists(id) ON DELETE SET CASCADE,
+            FOREIGN KEY (genre_id) REFERENCES genres(id) ON DELETE SET CASCADE,
+            FOREIGN KEY (label_id) REFERENCES labels(id) ON DELETE SET CASCADE
         ";
         return $this->createTable($tableBody, 'albums', $dbName);
+    }
+    public function createTableRatings($dbName = self::DEFAULT_CONFIG['database']): bool
+    {
+        $tableBody = "
+            id INT PRIMARY KEY AUTO_INCREMENT,
+            album_id INT,
+            rating INT,
+        ";
+        return $this->createTable($tableBody, 'ratings', $dbName);
     }
 
     public function createTableLabels($dbName = self::DEFAULT_CONFIG['database']): bool
