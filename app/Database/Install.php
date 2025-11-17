@@ -34,6 +34,7 @@ class Install extends Database
             $this->createTableMembers();
             $this->createTableAlbums();
             $this->createTableTracks();
+            $this->createTableRatings();
             $this->uploadTestData();
             echo "<div style='color: green; text-align: center; font-size: 40px;'>Az adatbázis sikeresen létre lett hozva!</div>";
             return true;
@@ -181,9 +182,9 @@ $this->execSql("INSERT IGNORE INTO `ratings`
             release_year INT,
             label_id INT,
             description TEXT(2048),
-            FOREIGN KEY (artist_id) REFERENCES artists(id) ON DELETE SET CASCADE,
-            FOREIGN KEY (genre_id) REFERENCES genres(id) ON DELETE SET CASCADE,
-            FOREIGN KEY (label_id) REFERENCES labels(id) ON DELETE SET CASCADE
+            FOREIGN KEY (artist_id) REFERENCES artists(id) ON DELETE CASCADE,
+            FOREIGN KEY (genre_id) REFERENCES genres(id) ON DELETE CASCADE,
+            FOREIGN KEY (label_id) REFERENCES labels(id) ON DELETE CASCADE
         ";
         return $this->createTable($tableBody, 'albums', $dbName);
     }
@@ -193,6 +194,7 @@ $this->execSql("INSERT IGNORE INTO `ratings`
             id INT PRIMARY KEY AUTO_INCREMENT,
             album_id INT,
             rating INT,
+            FOREIGN KEY (album_id) REFERENCES albums(id) ON DELETE CASCADE
         ";
         return $this->createTable($tableBody, 'ratings', $dbName);
     }

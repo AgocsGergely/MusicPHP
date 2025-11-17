@@ -84,7 +84,7 @@ class RatingController extends Controller {
     function averageRating(int $album_id): float|null
     {
         $sql = "SELECT AVG(rating) as avg_rating FROM `" . RatingModel::$table . "` WHERE album_id = :album_id";
-        $result = $this->model->db->execSql($sql, ['album_id' => $album_id]);
+        $result = $this->model->getDb()->execSql($sql, ['album_id' => $album_id]);
         if (!empty($result) && isset($result[0]['avg_rating'])) {
             return (float)$result[0]['avg_rating'];
         }

@@ -156,6 +156,27 @@ class Router {
 
                 //-------------------------------------------------
 
+            case '/ratings/create':
+                $ratingController = new Controllers\RatingController();
+                $ratingController->create();
+                break;
+            case '/ratings':
+                if(!empty($data)) {
+                    $ratingController = new Controllers\RatingController();
+                    $ratingController->save($data);
+                }
+                break;
+            case '/ratings/edit':
+                $ratingController = new Controllers\RatingController();
+                $ratingController->edit($id);
+                break;
+
+            
+                
+                
+
+                //-------------------------------------------------
+
             case '/install':
                 Layout::header();
                 $db = new Install([],false);
@@ -174,6 +195,7 @@ class Router {
     private function handlePatchRequests($requestUri){
         $data = $this->filterPostData($_POST);
         switch($requestUri) {
+            
             case '/artists':
                 $id = $data['id'] ?? null;
                 $artistController = new ArtistController();
@@ -204,6 +226,11 @@ class Router {
                 $id = $data['id'] ?? null;
                 $trackController = new TrackController();
                 $trackController->update($id, $data);
+                break;
+            case '/ratings':
+                $id = $data['id'] ?? null;
+                $ratingController = new Controllers\RatingController();
+                $ratingController->update($id, $data);
                 break;
             default:
                 $this->notFound();
@@ -237,6 +264,10 @@ class Router {
             case '/tracks':
                 $trackController = new TrackController();
                 $trackController->delete((int) $data['id']);
+                break;
+            case '/ratings':
+                $ratingController = new Controllers\RatingController();
+                $ratingController->delete((int) $data['id']);
                 break;
             default:
                 $this->notFound();
@@ -286,6 +317,9 @@ class Router {
             case '/tracks':
                 $trackController = new TrackController();
                 $trackController->index();
+                break;
+            case '/ratings':
+                HomeController::index();
                 break;
             default:
                 $this->notFound();

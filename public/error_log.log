@@ -31,3 +31,229 @@ Stack trace:
   thrown in C:\wamp64\www\MusicPHP\app\Models\Model.php on line 24
 [16-Nov-2025 21:54:49 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 10
 [16-Nov-2025 21:55:15 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 10
+[17-Nov-2025 08:50:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:86
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:52:19 Europe/Berlin] PHP Warning:  Undefined variable $table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:52:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RatingModel::$ in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:52:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$db in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:87
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 87
+[17-Nov-2025 08:52:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:86
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:53:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:86
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:53:58 Europe/Berlin] PHP Notice:  Accessing static property App\Models\RatingModel::$table as non static in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:53:58 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:53:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$db in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:87
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 87
+[17-Nov-2025 08:54:07 Europe/Berlin] PHP Fatal error:  Cannot redeclare static App\Models\Model::$table as non static App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Models\RatingModel.php on line 4
+[17-Nov-2025 08:54:16 Europe/Berlin] PHP Notice:  Accessing static property App\Models\RatingModel::$table as non static in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:54:16 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RatingModel::$table in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 86
+[17-Nov-2025 08:54:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$db in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:87
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(72): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(264): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 87
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:55:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:57:39 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\wamp64\www\MusicPHP\app\views\layouts\index.php on line 107
+[17-Nov-2025 08:57:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:57:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:57:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:57:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 08:57:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:22 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:22 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:22 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:22 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:22 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:30 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:30 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:30 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:30 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:30 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:00:55 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access protected property App\Models\RatingModel::$db in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php:87
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\views\layouts\index.php(78): App\Controllers\RatingController->averageRating(5)
+#1 C:\wamp64\www\MusicPHP\app\views\View.php(18): include('C:\\wamp64\\www\\M...')
+#2 C:\wamp64\www\MusicPHP\app\Controllers\HomeController.php(39): App\views\View::render('layouts/index', Array)
+#3 C:\wamp64\www\MusicPHP\app\Routing\Router.php(295): App\Controllers\HomeController::index()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/')
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/')
+#6 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php on line 87
+[17-Nov-2025 09:05:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:31 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:31 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:05:31 Europe/Berlin] View not found: C:\wamp64\www\MusicPHP\app\views\ratings/index.php
+[17-Nov-2025 09:05:31 Europe/Berlin] PHP Warning:  include(C:\wamp64\www\MusicPHP\app\views\ratings/index.php): Failed to open stream: No such file or directory in C:\wamp64\www\MusicPHP\app\views\View.php on line 18
+[17-Nov-2025 09:05:31 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\wamp64\www\MusicPHP\app\views\ratings/index.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\wamp64\www\MusicPHP\app\views\View.php on line 18
+[17-Nov-2025 09:08:02 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:04 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:04 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:04 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:04 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:04 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:12 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:08:12 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:10:53 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[17-Nov-2025 09:10:53 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\wamp64\www\MusicPHP\app\Database\Database.php:39
+Stack trace:
+#0 C:\wamp64\www\MusicPHP\app\Database\Database.php(47): App\Database\Database->__construct(Array)
+#1 C:\wamp64\www\MusicPHP\app\Models\Model.php(17): App\Database\Database::getInstance()
+#2 C:\wamp64\www\MusicPHP\app\Models\RatingModel.php(13): App\Models\Model->__construct()
+#3 C:\wamp64\www\MusicPHP\app\Controllers\RatingController.php(11): App\Models\RatingModel->__construct()
+#4 C:\wamp64\www\MusicPHP\app\Routing\Router.php(322): App\Controllers\RatingController->__construct()
+#5 C:\wamp64\www\MusicPHP\app\Routing\Router.php(33): App\Routing\Router->handleGetRequests('/ratings')
+#6 C:\wamp64\www\MusicPHP\app\Routing\Router.php(27): App\Routing\Router->dispatch('GET', '/ratings')
+#7 C:\wamp64\www\MusicPHP\public\index.php(24): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\wamp64\www\MusicPHP\app\Database\Database.php on line 39
+[17-Nov-2025 09:10:57 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CASCADE,
+            FOREIGN KEY (genre_id) REFERENCES genres(id) ON DELETE SET' at line 11
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[HY000]: General error: 1824 Failed to open the referenced table 'albums'
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                ENGINE = InnoDB
+                DEFAULT CHARACTER SET = utf8' at line 6
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.albums' doesn't exist
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.albums' doesn't exist
+[17-Nov-2025 09:10:59 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.tracks' doesn't exist
+[17-Nov-2025 09:11:00 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.albums' doesn't exist
+[17-Nov-2025 09:12:42 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
+[17-Nov-2025 09:12:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                ENGINE = InnoDB
+                DEFAULT CHARACTER SET = utf8' at line 6
+[17-Nov-2025 09:12:44 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:51 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:53 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:53 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:53 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:53 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:12:53 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:20 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:20 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:20 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:20 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:20 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'music.ratings' doesn't exist
+[17-Nov-2025 09:16:32 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'

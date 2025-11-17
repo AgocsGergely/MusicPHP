@@ -3,7 +3,7 @@
 namespace App\Models;
 class RatingModel extends Model {
 
-    protected static $table = 'ratings';
+    public static $table = 'ratings';
 
     public int|null $album_id = null;
     public int|null $rating = null;
@@ -17,6 +17,9 @@ class RatingModel extends Model {
         if ($rating) {
             $this->rating = $rating;
         }
+    }
+    function getDb() {
+        return $this->db;
     }
 }
 ?>
