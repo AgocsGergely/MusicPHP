@@ -84,8 +84,12 @@ main {
       flex-direction: column;
       transition: transform 0.2s;
     }
-    .book-card:hover {
-      transform: translateY(-5px);
+    .album-card:hover {
+      /*transform: translateY(-5px);*/
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.4s, box-shadow 0.4s;
+    transform: scale(1.05);
+
     }
     .book-card img {
     width: 100%;
@@ -208,4 +212,25 @@ main {
     text-align: center;
     list-style-position: inside;
 }
+.text-dark {
+    color: #000000;
+}
+.text-light {
+    color: #FFFFFF;
+}
+.text-dark:hover {
+    color: #333333;
+}
+.text-light:hover {
+    color: #CCCCCC;
+}
 
+table tbody tr:hover {
+    background-color: #75b958;
+}
+table tbody tr:hover .text-light {
+    color: #FFFFFF !important;
+}
+table tbody tr:hover td {
+    color: #FFFFFF !important;
+}

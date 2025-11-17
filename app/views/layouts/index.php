@@ -45,7 +45,7 @@ if (!empty($albums)) {
 
 echo <<<HTML
             <div class="myDIV"><p><strong>Szerző:</strong> {$artistName}</p></div>
-                <div class="hide"><img class='memberImage' src='{$artistPhoto}'><br>$artistName <br>$artistInstrument<br>$artistBirthYear </div>
+                <div class="hide"><img class='memberImage' src='{$artistPhoto}' alt="Előadó képe"><br>$artistName <br>$artistInstrument<br>$artistBirthYear </div>
     HTML;
         $members = $member->all(['where' => ['artist_id' => $album['artist_id']]]);
         if ($artists->find($album['artist_id'])->is_band == 1) {

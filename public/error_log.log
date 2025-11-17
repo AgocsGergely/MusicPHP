@@ -259,3 +259,158 @@ Stack trace:
 [17-Nov-2025 09:16:32 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'music'
 [17-Nov-2025 10:50:36 Europe/Berlin] Model::update called for artists
 [17-Nov-2025 10:50:50 Europe/Berlin] Model::update called for artists
+[17-Nov-2025 13:28:57 Europe/Berlin] Model::update called for artists
+[17-Nov-2025 13:31:45 Europe/Berlin] Model::update called for artists
+[17-Nov-2025 13:36:09 Europe/Berlin] Model::update called for artists
+[17-Nov-2025 13:39:04 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 9
+    [artist_id] => 6
+    [name] => Pálfi Csongor
+    [instrument] => Basszusgitár
+    [birth_year] => 2007
+    [photo] => pictures/3.png
+)
+
+[17-Nov-2025 13:39:04 Europe/Berlin] Model::update called for members
+[17-Nov-2025 13:39:12 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 10
+    [artist_id] => 6
+    [name] => Miskolczi Lili
+    [instrument] => Vocals
+    [birth_year] => 2007
+    [photo] => pictures/2.png
+)
+
+[17-Nov-2025 13:39:12 Europe/Berlin] Model::update called for members
+[17-Nov-2025 13:39:21 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 12
+    [artist_id] => 6
+    [name] => Hauser András
+    [instrument] => Dob
+    [birth_year] => 2007
+    [photo] => pictures/4.png
+)
+
+[17-Nov-2025 13:39:21 Europe/Berlin] Model::update called for members
+[17-Nov-2025 13:39:28 Europe/Berlin] MemberController::save data: Array
+(
+    [id] => 11
+    [artist_id] => 6
+    [name] => Bíró Bende
+    [instrument] => Gitár
+    [birth_year] => 2007
+    [photo] => pictures/5.png
+)
+
+[17-Nov-2025 13:39:28 Europe/Berlin] Model::update called for members
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:39 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:41 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 18
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 19
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Undefined variable $member in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20
+[17-Nov-2025 14:12:42 Europe/Berlin] PHP Warning:  Attempt to read property "artist_id" on null in C:\wamp64\www\MusicPHP\app\views\albums\index.php on line 20

@@ -16,11 +16,23 @@ foreach ($members as $member) {
         $previousBandName = $bandName;
     }
     $bgClass = $isGreyRow ? 'bg-grey' : 'bg-normal';
+
+    $R = ($member->artist_id * 32) % 256;
+    $G = ($member->artist_id * 156) % 256;
+    $B = ($member->artist_id * 2) % 256;
+
+    // (AI Segítség:) Calculate brightness using the standard luminance formula
+    $brightness = ($R * 0.299) + ($G * 0.587) + ($B * 0.114);
+
+    // Decide text color: dark text for light backgrounds, light text for dark backgrounds
+    $textColor = ($brightness > 128) ? 'text-dark' : 'text-light';
+
+
     $tableBody .= <<<HTML
-        <tr class="align-middle text-center {$bgClass}">
+        <tr class="align-middle text-center {$bgClass} {$textColor}" style="background-color:rgb({$R},{$G},{$B});">
             <td>{$member->name}</td>
             <td>{$bandName}</td>
-            <td>{$member->instrument}</td>
+            <td>{$member->instrument}</td> 
             <td>{$member->birth_year}</td>
             <td>{$member->photo}</td>
             
